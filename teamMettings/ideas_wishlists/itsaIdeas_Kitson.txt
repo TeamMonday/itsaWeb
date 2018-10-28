@@ -1,0 +1,5 @@
+Jon Kitson
+ITSA website Redo Ideas
+
+-Add a full screen 'Hero Image' with the ITSA title across the center.
+    -Possibly a 'slightly blurred' image of the computer lab can be used.

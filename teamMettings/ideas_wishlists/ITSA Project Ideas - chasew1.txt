@@ -1,0 +1,69 @@
+Team Monday - Team Project
+ITSA Web Site
+2018-10-24
+William R. Chase
+
+Some General Points
+* Build from scratch.  We are not building on the current web site.
+* Expect to use text and image elements from the current web site.
+* Maybe use the same color scheme.  Some familiarity.
+* It will be a static web site.  No database back-end.
+* There may be JavaScript to support some user interaction.
+* We could do some server-side scripting with PHP.  Maybe some dynamic pages.
+* We do need input and content from the ITSA advisors.
+* It’s a web site.
+
+What image elements can we expect to reuse?
+* Logo * Does ITSA need a new logo?
+* Icons * I have seen the PNG files.  They need to be optimized.
+* Advisor Pics
+
+Proposed changes.
+* The page header should use less vertical space.
+* The navigation bar will use less space if laid out horizontally.
+* Removing the vertical navigation box, more room is available for real page content.
+* The Google based ITSA Event box does not need to be on every page.
+* Change fonts.
+* Change normal text to a larger font size.
+* Reduce the large margin areas.  Use more space in the web browser view.
+* Maybe float the ITSA Events box to the right.
+* Add a footer to contain the typical footer elements.
+* Add "Membership" to the nav bar.
+* Add "FAQ" to the nav bar.
+* The home page is out-of-date.  Prevent the display of events that are in the past.
+
+Proposed footer elements
+* Copyright
+* Contact Us
+* About Us
+* E-mail Us
+* Facebook
+* Linked-in
+* Subscribe to Newsletter
+* Link to LCC main page
+* Link to Class Schedule PDFs
+
+New Images Needed
+* Header background
+* Body background?
+
+More Ideas
+* Can we combine ITSA and CIT event lists?
+* Add more information content.  More pages.
+* A page for available employer contacts (if allowed).
+* A page for suggestions to faculty members.
+* A page of available documents.  PDFs to appear in a PDF view.  Materials from past presentations.
+* A page for opportunities at LCC.
+* A page for opportunities in the community.
+* A page for job opportunities.
+* Somewhere list conference opportunities
+* The site should be updated on a regular basis, so the information content is up-to-date.
+* Give the date and time of the next meeting.  
+* If you want me at a past meeting, give me a time machine.
+* Show fundraising items in visibly separate boxes.  Two items will look like two items.
+* Improve the presentation of fundraising item information.
+* Form input items on the Contact Us page can be sized more appropriately.
+* Replace the mail address text, "lcc-itsa@mail.lcc.edu", with a mailto link.
+* Provide a page for the CIT web site to link to.
+* The HOME page might list and explain the menu/nav items.  Tell them what to expect.
+
