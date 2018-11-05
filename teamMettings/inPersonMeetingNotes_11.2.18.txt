@@ -1,0 +1,71 @@
+﻿--In Person Meeting Notes--
+--11/2/2018--
+--In Attendance: Greg, Amber, Bill, Jon--
+
+Items discussed / Team Decision 
+Move logo to the left.	/  All agreed.
+Move <Link> box to the right.  /  Links will be moved to the NAV BAR.
+<FAQ> button should be more prominent /  Move to the NAV BAR.
+Make <Header> smaller.  /  All agreed.
+Add a "Hero Image" landing image to top of home page.  /  Agreed (via vote) to 'see how it looks'.  Jon will take the photos.
+Add <Forum/Discussion Board/Suggestions>.  /  Decided this is a possibility, but only after higher priorities are taken care of.
+Communication links: add all applicable.  /  All Agreed.
+Add calendar.  /  Group decided AGAINST  this.
+Widen scope of Networking opportunities.  /  All agreed.
+Link to <Networking> page from <Resources> page.  /  Instead of this, group decided to combine NETWORKING and RESOURCES pages.
+Widen scope of RESOURCES.  /  Whoever codes this page can add resources as they see fit.
+Default <Home> page to <About Us> page.  /  Group decided there will be Separate HOME and ABOUT US pages.
+Panels reflecting top nav.  /  Issue will be revisited if we think the home page is 'missing something'.
+Site Structure: 1 Column, 3 Row stack.  /  Per the wireframes, the site already has this layout.
+Site Structure: Responsive.  /  All agreed.
+Site Structure: SPA Design.  /  Group decided AGAINST this.
+Site Structure: Slide navigation.  /  Group decided AGAINST this.
+Link to <LCC.edu> in Footer.  All agreed.
+Top Nav: Use Bootstrap menu icon on mid and mobile widths.  /  Decided to use icons, but not necessarily BOOTSTRAP.
+Top nav: Nav labels become more bold on focus.  /  All agreed.
+Add News page.  /  Group decided this is not required, but someone may choose to code it as their contribution to the site.
+About Us to include: Mission Statement, Officers, History.  /  All agreed.
+Use PHP for some server-side scripting.  /  Group decided AGAINST  this.
+Use FontAwesome for icons.	/  Yes, if that seems appropriate at the time.
+Use horizontal nav Bar.  /  All agreed.
+The Google based ITSA Event box does not need to be on every page.  /  Google Event Box will be REMOVED.
+Increase font size.  /  Group decided font size should be monitored for appropriate size.
+Reduce large margin areas.	/  All agreed.
+Float Events box to the right.	/  Group decided there will be NO event box.
+Add Footer.  /  All agreed.
+Add Membership Bar.  /  Group decided MEMBERSHIP is already encompassed by the Contact Us page.
+Prevent display of past events.  /  Group decided this is the responsibility of the stakeholders.
+Combine ITSA and CIT events lists.  /  Group decided AGAINST  this.
+Add pages for: Employer Contacts, PDF Documents, Opportunities (LCC, Community, Jobs).  /  Group decided AGAINST  this.
+
+Additional decisions:
+Team Monday will create the page as they see fit, then it will be offered to ITSA to use/modify as they see fit.
+LCC's Blue & White color scheme will be used.
+An accent color will be determined later.
+Amber will recreate the ITSA Logo.
+The project TEMPLATE shall be informed by the above group decisions.
+Individual page coding assignments will be made after the TEMPLATE is created.
+
+	
+		
+Pages	
+(* indicates current pages -may or may not be kept-)
+(** indicates possibile page)	
+(ALL CAPS indicates required page)	
+HOME*	
+TEAM MONDAY PAGE	
+About Us (ITSA)	
+Resources/Network	
+Fundraising*	
+Volunteer*	
+Events*	
+Contact Us*	
+Forum (etc.)**	
+News**		
+TEMPLATE	
+	
+Per project rules Team Monday must produce at least 8 pages:	
+"Home Page, Team Monday Page, Template = 3"	
+Unique page created by each team member = 5	
+
+
