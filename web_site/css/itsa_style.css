@@ -7,57 +7,78 @@
 	* This file has it's own HISTORY file, named lile *_history.css.
 	* Keep the HISTORY file up-to-date as you make changes.  Be sure to describe the change, and reason why.
 */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:700,400');
+
 body {
 	/*
 	background-image: url(images/TBD.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	*/
-	font-size: 26px; /* TBD */
-	font-family: Tahoma, sans-serif; /* TBD */
+	font-size: 18px; /* TBD */
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; /* TBD */
 }
 
 /* NAVIGATION BAR*/
-#itsa_nav {
-	font-size: 19px;
-	overflow: hidden;
-	width: 100%;
-	background: #004890;
-}
-#itsa_nav ul {
-	list-style-type: none;
-	list-style: none;
-	padding: 0;
-	margin: 0 auto;
-	width: 50em
-}
-#itsa_nav ul li {
-	float: left;
-}
-#itsa_nav ul li a {
-	display: block;
-	padding: .5em;
-	border: 2px solid #ba89a8;
-	border-radius: .5em;
-	margin: .25em;
-	color: #eee;
-}
-#itsa_nav ul a:focus {
-	color: #fc6;
-	border-color: #fff;
-}
-#itsa_nav ul a:hover {
-	color: #fc6; /* The color change effect is preferable.  Choose a color. */
-	border-color: #fff;
-	font-weight: bold; /* Let's not do this.  It makes other buttons move. */
-}
 #itsa_nav_end {
 	clear: both;
 	overflow: hidden;
 }
 
+#itsa_nav {  
+    background: #004890; 
+    height: 80px;
+    width: 100%; 
+	font-size: 26px; /* TBD */
+	font-family: Oswald, sans-serif; /* TBD */
+}
+
+#itsa_nav ul li {  
+    float: left; 
+    position: relative;  
+}
+
+#itsa_nav ul {  
+    background: #004890; 
+    /*display: none; 
+    position: absolute;
+    left: 0; top: 100%;*/
+}
+
+#itsa_nav a {  
+    cursor: pointer; 
+    display: block; 
+    /*color: white;*/ 
+    color: #eee;
+    line-height: 30px; 
+    padding: 5px 10px; 
+    text-decoration: none;
+}
+
+
+#itsa_nav li { list-style: none; }
+/*
+#itsa_nav2 li:hover { 
+	background: #555;
+	color: #fc6; 
+	font-weight: bold; 
+}  
+*/
+#itsa_nav ul a:hover { 
+	background: #555;
+	color: #fc6; /* The color change effect is preferable.  Choose a color. */
+	font-weight: bold; /* Let's not do this.  It makes other buttons move. */
+}  
+#itsa_nav ul a:active {
+    background-color: #004890; 
+	color: #fc6; /* The color change effect is preferable.  Choose a color. */
+    /*color: white;*/
+}
+
 /* FOOTER */
 #itsa_footer {
+
 	font-size: 16px;
 	color: white;
 	background: #004890;
