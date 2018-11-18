@@ -43,6 +43,11 @@ main h1 {
     text-shadow: 0 0 5px rgba(7, 7, 7, 0.8);
 }
 
+.panel a {
+    text-decoration: none;
+    color: rgb(255, 98, 0);
+}
+
 #board {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
