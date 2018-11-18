@@ -29,11 +29,6 @@ main h1 {
     margin-bottom: 10px;
 }
 
-.hidden{
-    display:none;
-    
-}
-
 .panel {
     width: 80%;
     margin: auto;
@@ -55,12 +50,17 @@ main h1 {
                          "financial content delegate";
     grid-gap: 50px 30px;
     margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .imgCircle {
     height: 250px;
     width: 250px;
     border-radius: 50%;
+    
+}
+
+.imgCircle, .flexImg {
     border: 2px solid rgba(255, 98, 0, .7);
     box-shadow: 2px 2px 8px 1px rgba(255, 98, 0, .4);
 }
@@ -99,6 +99,22 @@ figcaption h4 {
 
 #delegate {
     grid-area: delegate;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.flex div {
+    width: 600px;
+    margin: 40px;
+}
+
+.flexImg {
+    width: 90%;
 }
 
 /*---media queries for ITSA About Us only-----*/
