@@ -87,7 +87,7 @@ main {
 	text-shadow: 0 0 5px rgba(7, 7, 7, 0.9);
 }
 
-/*---media queries for hero image only-----*/
+/*---media queries for home page/hero image only-----*/
 
 @media screen and (max-width: 1410px) {
 	#titleDiv {

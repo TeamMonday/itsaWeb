@@ -11,6 +11,7 @@ main {
     background-position: center;
     background-size: 10%;
     text-align: center;
+    padding-bottom: 40px;
 }
 
 #box {
@@ -44,12 +45,15 @@ main h1 {
     padding: 10px;
     background-color: rgba(0, 72, 144, .85);
     box-shadow: 2px 2px 8px 1px rgba(255, 98, 0, .4);
+    text-shadow: 0 0 5px rgba(7, 7, 7, 0.8);
 }
 
 #board {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: "president content secretary"
+                         "financial content delegate";
+    grid-gap: 50px 30px;
     margin-top: 30px;
 }
 
@@ -59,4 +63,72 @@ main h1 {
     border-radius: 50%;
     border: 2px solid rgba(255, 98, 0, .7);
     box-shadow: 2px 2px 8px 1px rgba(255, 98, 0, .4);
+}
+
+figcaption h3, figcaption h4 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    text-shadow: 0 0 5px rgba(7, 7, 7, 0.8);
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+figcaption h3 {
+    color: #3698d4; 
+}
+
+figcaption h4 {
+    color: rgb(255, 98, 0);
+}
+
+#president {
+    grid-area: president;
+}
+
+#content {
+    grid-area: content;
+}
+
+#secretary {
+    grid-area: secretary;
+}
+
+#financial {
+    grid-area: financial;
+}
+
+#delegate {
+    grid-area: delegate;
+}
+
+/*---media queries for ITSA About Us only-----*/
+
+@media screen and (max-width: 1150px) {
+	.panel {
+		font-size: .8em;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	#board {
+        grid-template-columns: 100%;
+        grid-template-areas: "content"
+                             "president"
+                             "secretary"
+                             "financial"   
+                             "delegate";
+    }
+}
+
+@media screen and (max-width: 600px) {
+	main h1 {
+		font-size: 2em;
+	}
+
+	.panel, #board .panel {
+        font-size: 70%;
+        text-shadow: none;
+    }
+
+    
 }
