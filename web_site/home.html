@@ -1,28 +1,49 @@
 <!-- LCC Information Technology Student Alliance - Home Page -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<title>IT Student Alliance</title> 
-	<link rel="stylesheet" href="css\itsa_style.css" >
-	<link rel="stylesheet" href="css/home_style.css" >
-</head>
-<body>
-<div id="itsa_nav">
-<ul>
-	<li style="color:white;font-family:'Times New Roman';font-size: 50px;">&nbsp;iTSA &nbsp;</li> <!-- LOGO IS NEEDED HERE -->
-	<li><a href="itsa_home.html">HOME</a></li>
-	<li><a href="itsa_resources.html">RESOURCES</a></li>
-	<li><a href="itsa_events.html">EVENTS</a></li>
-	<li><a href="itsa_fundraising.html">FUNDRAISING</a></li>
-	<li><a href="itsa_volunteer.html">VOLUNTEER</a></li>
-	<li><a href="itsa_faq.html">FAQ</a></li>
-</ul>
-</div>
-<div id="itsa_nav_end">
-</div>
-
-<main id="itsa_main">
+		<head>
+				<meta charset="utf-8" />
+				<title>IT Student Alliance</title>
+				<link rel="stylesheet" href="css/home_style.css" >
+				<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+				<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+			</head>
+			<body>
+			
+			<!----------------------------nav bar---------------------------------------------------->
+			<nav>
+				<a href="#"><img alt="ITSA Logo" class="logoLink" src="images/itsa_logo_white_space_at_bottom_removed.png"></a>
+			
+			<ul> 
+				<li><a href="itsa_index.html">Home</a></li>
+				<li><a href="itsa_resources.html">Resources</a></li>
+				<li><a href="itsa_events.html">News/Events</a></li>
+				<li><a href="#">A Page</a></li>
+				<li><a href="#">A Page</a></li>
+				<li><a href="itsa_about.html">About Us</a></li>
+			</ul>
+			
+			<!----------------drop down icon and menu--------------------->
+			<div id="iconHolder" onclick="drop()">
+			<i class="fas fa-bars"></i>
+			</div>
+			
+			</nav>
+			
+			<div id="navDropDown" style="display:none">
+				<ul> 
+					<li><a href="itsa_index.html">Home</a></li>
+					<li><a href="itsa_resources.html">Resources</a></li>
+					<li><a href="itsa_events.html">News/Events</a></li>
+					<li><a href="#">A Page</a></li>
+					<li><a href="#">A Page</a></li>
+					<li><a href="itsa_about.html">About Us</a></li>
+				</ul>
+			</div>
+			
+			<!------------------------------main (place your item in here)------------>
+			<main>
+			
 	<div class="overlay" id="headingRow">
 		<div id="titleDiv">
 				<h3>Lansing Community College</h3>
@@ -43,53 +64,69 @@
 	</div>
 </main>
 
+<!------------------------------footer----------------------------------------------------->
 <footer>
-<div id="itsa_footer">
-	<div class="soc-group">
-		<form id="subscribeForm" role="form" class="form-inline">
-			<div class="form-group">
-			<input id ="email" 
-			  type="email" 
-			  name="email" 
-			  class="form-control input-xs" 
-			  placeholder="E-mail ID" 
-			  data-toggle="popover" 
-			  title="Please enter your E-mail address." 
-			  trigger="focus" 
-			  data-placement="top" 
-			  data-content="Thank you!" 
-			  required
-			>
-			<input id="subscribe" 
-			  class="btn btn-primary btn-sm" 
-			  type="submit" 
-			  style="background: #699a33;" 
-			  value ="Subscribe"
-			>
-			<a class="soc-icon" href="mailto:lcc-itsa@mail.lcc.edu"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Googlemaillogo.png"> </a> 
-	        <a class="soc-icon" href="https://www.facebook.com/Information-Technology-Student-Alliance-1630379710529200/"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Farm-Fresh_facebook.png"> </a>
-	        <a class="soc-icon" href="https://www.linkedin.com/groups/4879806/profile" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" alt="LinkedIn Link" > </a>
+		<div>		
+			<ul>
+				<li><a href="itsa_about_us.html">About ITSA</a></li>
+				<li><a href="www.lcc.org">Lansing Community College (LCC)</a></li>
+				<li><a href="https://my.lcc.edu/">MyLCC</a></li>
+			</ul>
+		</div>
+	<div id="centerOfFooter">
+			<p>Read our newsletter & Conect with us on social media:</p>
+			<form id="subscribeForm" role="form" class="form-inline">
+				<div class="form-group">
+				<input id ="email" 
+				  type="email" 
+				  name="email" 
+				  class="form-control input-xs" 
+				  placeholder="E-mail ID" 
+				  data-toggle="popover" 
+				  title="Please enter your E-mail address." 
+				  trigger="focus" 
+				  data-placement="top" 
+				  data-content="Thank you!" 
+				  required
+				>
+				<input id="subscribe" 
+				  class="btn btn-primary btn-sm" 
+				  type="submit" 
+				  style="background: #699a33;" 
+				  value ="Subscribe"
+				>
+			</form>
+				<div id="socialMedia">
+					<a class="soc-icon" href="mailto:lcc-itsa@mail.lcc.edu"><i class="fas fa-envelope-square"></i></a> 
+					<a class="soc-icon" href="https://www.facebook.com/Information-Technology-Student-Alliance-1630379710529200/"><i class="fab fa-facebook-square"></i></a>
+					<a class="soc-icon" href="https://www.linkedin.com/groups/4879806/profile" ><i class="fab fa-linkedin"></i></a>
+				</div>
 			</div>
-		</form>
 	</div>
-	<p>
-		MORE INFORMATION
-		<span class="float-right"><a href="itsa_about_us.html">About ITSA</a></span>
-	</p>
-	<p>
-		<a href="www.lcc.org">Lansing Community College (LCC)</a>
-		<span class="float-right">Contact: <a href="mailto:lcc-itsa@mail.lcc.edu"> lcc-itsa@mail.lcc.edu</a></span>		
-	</p>
-	<p>
-		<a href="https://my.lcc.edu/">MyLCC</a>
-	</p>
-	<p>
-		<a href="https://cyberstars.org/">LCC Cyber Security Club - Cyberstars</a>
-		<span class="float-right"><a href="itsa_about_team_monday.html">About Team Monday</a></span>		
-	</p>
-	<p>
-		<span class="float-right">Copyright &copy;2018 IT Student Alliance - All rights reserved. | <a href="www.lcc.org">Lansing Community College</a></span>
-	</p>
-</div>
-</footer>
+		<div>
+			<ul>
+				<li>LCC Cyber Security Club: <a href="https://cyberstars.org/">Cyberstars</a></li>
+				<li><a href="itsa_about_team_monday.html">About Team Monday</a></li>
+				<li>Copyright &copy;2018 IT Student Alliance - All rights reserved.</li>
+			</ul>
+		</div>
+	</footer>
+	
+	<script>
+	/*-------------Script for Drop Down Menu--------------------------*/
+		var dropMenu = document.getElementById("navDropDown");
+		var dropState = dropMenu.style.display;
+	
+		function drop() {
+			if(dropMenu.style.display == "none") {
+				console.log(dropMenu.style.display)
+				dropMenu.style.display = "block";
+			} else {
+				console.log(dropMenu.style.display)
+				dropMenu.style.display = "none";
+			}
+		}
+	/*-----------------------------------------------------------------*/
+	</script>
+	</body>	
 </html>

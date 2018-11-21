@@ -1,18 +1,96 @@
+/*--------------------body--------------------------------------------------------*/
 body {
-    margin: 0px;
-}
-
-main {
     width: 100%;
+    margin: 0px;
     background-color: rgb(22, 22, 22);
-    font-size: 120%;
     background-image: url("../images/itsa_logo_black.png");
     background-repeat: repeat;
     background-position: center;
     background-size: 10%;
-    text-align: center;
-    padding-bottom: 40px;
 }
+
+
+/*-------------------Nav Bar--------------------------------------------------------*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: lighter;
+	font-family: 'Oswald', sans-serif;
+    font-size: 180%;
+    text-shadow: 0 0 5px rgba(7, 7, 7, 0.8);
+    background-color: rgba(0, 72, 144, .85);
+    box-shadow: 2px 2px 8px 1px rgba(255, 98, 0, .4); 
+}
+
+.logoLink {
+    margin: auto;
+    height: 53px;
+}
+
+nav ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0px;
+}
+
+nav li { 
+    list-style: none; 
+    display: inline;
+    margin: 10px;
+}
+
+nav li a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-shadow: 0 0 5px rgba(7, 7, 7, 0.8);
+}
+
+#iconHolder {
+    display: none; /*displays below 1000px screen width*/
+}
+
+nav i {
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+
+/*--------------------drop down menu for screen widths < 1000px---------------------------*/
+#navDropDown {
+    padding: 15px;
+    margin: auto;
+    margin-top: 0px;
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Oswald', sans-serif;
+    font-size: 130%;
+    text-shadow: 0 0 5px rgba(7, 7, 7, 0.8);
+    background-color: rgba(219, 232, 238, .5);
+    box-shadow: 2px 2px 8px 1px rgba(255, 98, 0, .4); 
+}
+
+#navDropDown ul {
+    margin: auto;
+    padding: 0px;
+    list-style: none;
+}
+
+#navDropDown li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+/*------------------------------main---------------------------------------------------*/
+main {
+    width: 100%;
+    text-align: center;
+}
+
 
 #box {
     min-height: 500px;
@@ -61,8 +139,7 @@ main h1 {
 .imgCircle {
     height: 250px;
     width: 250px;
-    border-radius: 50%;
-    
+    border-radius: 50%;  
 }
 
 .imgCircle, .flexImg {
@@ -122,7 +199,77 @@ figcaption h4 {
     width: 90%;
 }
 
+/*------------------footer----------------------------------------------------------------*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: lighter;
+    font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+    margin-top: 30px;
+    font-size: 100%;
+    text-shadow: 0 0 5px rgba(7, 7, 7, 0.8);
+    background-color: rgba(0, 72, 144, .85);
+    box-shadow: 2px 2px 8px 1px rgba(255, 98, 0, .4);
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(255, 98, 0);
+}
+
+footer ul {
+    list-style: none;
+    padding: 0px;
+}
+
+footer i {
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+#centerOfFooter {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#socialMedia {
+    margin-top: 10px;
+}
+
+#centerOfFooter a {
+    margin: 10px;
+}
+
+footer p {
+    margin-bottom: 2px;
+}
+
+
+/*-----------------Hover effects----------------------------------------------------------*/
+#iconHolder:hover {
+    cursor: pointer;
+}
+
+nav i:hover, a:hover {
+    text-shadow: 0px 0px 10px rgb(255, 98, 0), 0 0 5px rgb(255, 98, 0);
+}
+
+
 /*---media queries for ITSA About Us only-----*/
+@media screen and (max-width: 1000px) {
+	nav ul {
+		display: none;
+    }
+    
+    #iconHolder {
+        display: initial;
+    }
+}
 
 @media screen and (max-width: 1150px) {
 	.panel {
