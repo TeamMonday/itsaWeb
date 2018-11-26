@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- itsa_template.html -->
+<!--This is a rework of the template based on suggestions from the in-person meeting-->
+
+<head>
+    <meta charset="utf-8" />
+    <title>ITSA - Page Template</title>
+    <link rel="stylesheet" href="css/itsa_style_rework.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!----------------------------nav bar---------------------------------------------------->
+    <nav>
+        <a href="#"><img alt="ITSA Logo" class="logoLink" src="images/itsa_logo_white01.png"></a>
+
+        <ul>
+            <li><a href="itsa_index.html">Home</a></li>
+            <li><a href="itsa_resources.html">Resources</a></li>
+            <li><a href="itsa_events.html">News/Events</a></li>
+            <li><a href="#">A Page</a></li>
+            <li><a href="#">A Page</a></li>
+            <li><a href="itsa_about.html">About Us</a></li>
+        </ul>
+
+        <!----------------drop down icon and menu--------------------->
+        <div id="iconHolder" onclick="drop()">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </nav>
+
+    <div id="navDropDown" style="display:none">
+        <ul>
+            <li><a href="itsa_index.html">Home</a></li>
+            <li><a href="itsa_resources.html">Resources</a></li>
+            <li><a href="itsa_events.html">News/Events</a></li>
+            <li><a href="#">A Page</a></li>
+            <li><a href="#">A Page</a></li>
+            <li><a href="itsa_about.html">About Us</a></li>
+        </ul>
+    </div>
+
+    <!------------------------------main (place your item in here)------------>
+    <main>
+        <h1 class="mainH1">Events</h1>
+        <div class="panel">
+            <h3>Mark your calendars for the events sponsored by ITSA and CIT department her. ITSA also brings you all the community events happening in the Lansing area and surrounding cities.</h3>
+        </div>
+        <h1 class="mainH1">Upcoming Events</h1>
+
+        <div class="flex">
+            <div class="panel">
+                <h3>Code Retreat Saturday</h3>
+                <p>When: Saturday, 01/19/2019 @ 10:00 AM to 3:00 PM</p>
+                <p>Where: The Fledge; 1300 Eureka St, Lansing, MI 48912</p>
+                <p>Signup: <a href="https://www.meetup.com/Mid-Michigan-Code-Retreat/events/256420660/">Meetup.com</a></p>
+                <p>Mid Michigan Code Retreat (MMCR) is about practice, learning, and trying something new. We're not perfect, but with practice, we can become better.
+                    <br> The half day retreat format is done to give you some focused time and space to practice something, maybe something you haven't even tried before. We do this in order to sharpen the saw.
+                    <br> We learn best when paired in groups of people who have different ideas, thoughts, and approaches to unique problems or problem spaces.
+                    <br> The code retreat is about practice, not about delivering a product on deadline.</p>
+            </div>
+            <div>
+                <img alt="Code Retreat Saturday Image" class="flexImg" src="images/events/code_retreat_banner.jpeg">
+                <img alt="Code Retreat Saturday Group Image" class="flexImg" src="images/events/code_retreat_group.jpg">
+            </div>
+        </div>
+        <h1 class="mainH1">Past Events</h1>
+        <div class="flex">
+            <div class="panel">
+                <h3>First Impression Workshop</h3>
+                <p>When: Tuesday, 11/13/2018 @ 5:00PM</p>
+                <p>Where: LCC West, Room W157</p>
+                <p>Master coach and certified body language expert Allie Irwin will be leading a workshop on how to make your first impression your best impression at a career fair, interview or networking event.
+                </p>
+            </div>
+            <div>
+                <img alt="First Impression Workshop flyer" class="flexImg" src="images/events/AllieIrwinFlier.png">
+            </div>
+        </div>
+
+        <div class="panel">
+            <h3>Robotics Festival</h3>
+            <p>When: Sunday, 09/16/2018 @ 10:00AM - 1:00PM</p>
+            <p>Where: Valley Court Park - 300 Valley Court - East Lansing, MI 48823</p>
+            <p>Children, young adults, and parents are invited to participate in the East Lansing Robotics Fest event, being held on Sunday, September 16, 2018 from 10 a.m. - 1 p.m. in Valley Court Park. The event is FREE and open to the public.
+                <br>During the festival, school aged children in 1st-12th grade are welcome to partner with hosts from the Michigan State University's College of Engineering, Information Technology Empowerment Center (ITEC), and East Lansing Public Library to create robots.
+                <br>In addition to robot building, visitors will see the Michigan State University autonomous vehicle, bottle cap rockets and robotics fish! Come and take a stroll....to see what the incredible world of engineering has to offer to you!
+            </p>
+        </div>
+
+    </main>
+
+    <!------------------------------footer----------------------------------------------------->
+    <footer>
+        <div>
+            <ul>
+                <li><a href="itsa_about_us.html">About ITSA</a></li>
+                <li><a href="www.lcc.org">Lansing Community College (LCC)</a></li>
+                <li><a href="https://my.lcc.edu/">MyLCC</a></li>
+            </ul>
+        </div>
+        <div id="centerOfFooter">
+            <p>Read our newsletter &amp; Conect with us on social media:</p>
+            <form id="subscribeForm" role="form" class="form-inline">
+                <div class="form-group">
+                    <input id="email" type="email" name="email" class="form-control input-xs" placeholder="E-mail ID" data-toggle="popover" title="Please enter your E-mail address." trigger="focus" data-placement="top" data-content="Thank you!" required>
+                    <input id="subscribe" class="btn btn-primary btn-sm" type="submit" style="background: #699a33;" value="Subscribe">
+                </div>
+            </form>
+            <div id="socialMedia">
+                <a class="soc-icon" href="mailto:lcc-itsa@mail.lcc.edu"><i class="fas fa-envelope-square"></i></a>
+                <a class="soc-icon" href="https://www.facebook.com/Information-Technology-Student-Alliance-1630379710529200/"><i class="fab fa-facebook-square"></i></a>
+                <a class="soc-icon" href="https://www.linkedin.com/groups/4879806/profile"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div>
+            <ul>
+                <li>LCC Cyber Security Club: <a href="https://cyberstars.org/">Cyberstars</a></li>
+                <li><a href="itsa_about_team_monday.html">About Team Monday</a></li>
+                <li>Copyright &copy;2018 IT Student Alliance - All rights reserved.</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        /*-------------Script for Drop Down Menu--------------------------*/
+        var dropMenu = document.getElementById("navDropDown");
+        var dropState = dropMenu.style.display;
+
+        function drop() {
+            if (dropMenu.style.display == "none") {
+                console.log(dropMenu.style.display)
+                dropMenu.style.display = "block";
+            } else {
+                console.log(dropMenu.style.display)
+                dropMenu.style.display = "none";
+            }
+        }
+        /*-----------------------------------------------------------------*/
+
+    </script>
+</body>
+
+</html>
