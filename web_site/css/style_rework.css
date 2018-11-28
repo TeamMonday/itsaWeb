@@ -155,7 +155,7 @@ main .panel a {
     flex-wrap: wrap;
     width: 100%;
     margin: auto;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .flex div {
