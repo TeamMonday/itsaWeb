@@ -135,7 +135,7 @@ main {
 
 #titleDiv h3, .linkPanel a {
 	font-weight: lighter;
-	font-family: Oswald, sans-serif;
+	font-family: "Oswald", sans-serif;
 }
 
 #titleDiv h1 {
@@ -154,18 +154,21 @@ main {
 	display: grid;
 	text-align: center;
 	height: 200px;
-	width: 250px;
+	width: 300px;
 	margin: 20px;
 	border: 2px solid rgba(255, 98, 0, .5);
 	background-color: rgba(0, 72, 144, .7);
-}
-
-.linkPanel a {
 	color: rgb(255, 98, 0);
-	font-size: 4em;
+	font-size: 2em;
 	text-shadow: 0 0 5px rgba(7, 7, 7, 0.8);
 	text-decoration: none;
-	margin: auto;
+	font-family:'Times New Roman';
+	
+}
+
+.firstWord {
+	font-family: "Oswald", sans-serif;
+	font-size: 2.3em;
 }
 
 .linkPanel:hover {
@@ -241,14 +244,15 @@ nav i:hover, a:hover {
 	#titleDiv {
 		font-size: 1.2em;
 	}
-
-	.linkPanel a {
-		font-size: 3em;
-	}
 	
 	.linkPanel {
 		height: 150px;
-		width: 200px;
+		width: 250px;
+		font-size: 1.5em;
+	}
+
+	.firstWord {
+		font-size: 2em;
 	}
 }
 
@@ -282,9 +286,5 @@ nav i:hover, a:hover {
 @media screen and (max-width: 600px) {
 	#titleDiv {
 		font-size: .8em;
-	}
-
-	.linkPanel a {
-		font-size: 2em;
 	}
 }

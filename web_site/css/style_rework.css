@@ -149,6 +149,12 @@ main .panel a {
     width: 90%
 }
 
+.flexImgBlue {
+    border: 2px solid rgba(54, 152, 212, .7);
+    box-shadow: 2px 2px 8px 1px rgba(54, 152, 212, .4);
+    width: 70%
+}
+
  /*---------------Responsive class--------------------------------*/ 
 .flex {
     display: flex;          
@@ -161,6 +167,26 @@ main .panel a {
 .flex div {
     width: 600px;
     margin: 40px;
+}
+
+figcaption h3, figcaption h4 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    text-shadow: 0 0 5px rgba(7, 7, 7, 0.8);
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+figcaption h3 {
+    color: #3698d4; 
+}
+
+figcaption h4 {
+    color: rgb(255, 98, 0);
+}
+
+.wilson {
+    width: 60%;
 }
 
 /*------------------------------------end of display elements--------------------------------*/
